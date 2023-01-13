@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fondo</title>
+    <style>
+      @font-face {
+        font-family: "Bitstream Vera Serif Bold";
+        src: url("https://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+      }
+
+      body {
+        font-family: "Bitstream Vera Serif Bold", serif;
+      }
+
+      p {
+        background-color: red;
+        background-image: url(hoja.jpeg);
+        opacity: 0.5;
+      }
+      .box {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(30, 30, 176, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        border: 2px solid black;
+        padding: 15px;
+        text-align: center;
+        margin: 20px 5px;
+        width: 400px;
+      }
+      #texto {
+        font: bold 30px Tahoma;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <p id="texto">Ejemplo de degradado</p>
+    </div>
+  </body>
+</html>
